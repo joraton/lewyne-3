@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, ArrowRight, TrendingUp, Calculator, BarChart3, Target, AlertTriangle, Lightbulb, DollarSign, PieChart } from 'lucide-react';
+import { ArrowLeft, ArrowRight, TrendingUp, Calculator, Target, AlertTriangle, Lightbulb, DollarSign, PieChart } from 'lucide-react';
 
 export default function Section3() {
   return (
@@ -54,7 +54,7 @@ export default function Section3() {
             </div>
             <ul className="space-y-2 text-green-700">
               <li>• Construire des prévisions de flux de trésorerie sur 5 ans</li>
-              <li>• Calculer la Valeur d'Entreprise (VE) et la Valeur Terminale (VT)</li>
+              <li>• Calculer la Valeur d&apos;Entreprise (VE) et la Valeur Terminale (VT)</li>
               <li>• Maîtriser les hypothèses de croissance et ratios financiers</li>
               <li>• Appliquer la méthode DCF complète</li>
             </ul>
@@ -104,7 +104,7 @@ export default function Section3() {
                   <li>• <strong>Dotations :</strong> 2,5% du CA</li>
                   <li>• <strong>BFR :</strong> maintien du ratio 15% du CA</li>
                   <li>• <strong>Investissements :</strong> 3% du CA</li>
-                  <li>• <strong>Taux d'IS :</strong> 25%</li>
+                  <li>• <strong>Taux d&apos;IS :</strong> 25%</li>
                 </ul>
               </div>
 
@@ -235,7 +235,7 @@ export default function Section3() {
                 </h4>
                 
                 <p className="text-gray-700 mb-4">
-                  <strong>Énoncé :</strong> Comparez l'évolution de l'EBE et des dotations aux amortissements sur la période de prévision.
+                  <strong>Énoncé :</strong> Comparez l&apos;évolution de l&apos;EBE et des dotations aux amortissements sur la période de prévision.
                 </p>
                 
                 <div className="overflow-x-auto mb-4">
@@ -281,7 +281,7 @@ export default function Section3() {
                 
                 <div className="bg-yellow-50 border border-yellow-200 p-4 rounded">
                   <p className="text-yellow-800 text-sm">
-                    <strong>💡 Analyse :</strong> Le ratio dotations/EBE reste stable autour de 20%, ce qui indique une politique d'amortissement cohérente avec la croissance de l'activité. Cette stabilité facilite les prévisions à long terme.
+                    <strong>💡 Analyse :</strong> Le ratio dotations/EBE reste stable autour de 20%, ce qui indique une politique d&apos;amortissement cohérente avec la croissance de l&apos;activité. Cette stabilité facilite les prévisions à long terme.
                   </p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Section3() {
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <DollarSign className="w-6 h-6 text-green-600" />
-                B. Calcul de la Valeur d'Entreprise
+                B. Calcul de la Valeur d&apos;Entreprise
               </h2>
               
               <h3 className="text-xl font-semibold text-gray-800 mb-4">1. Valeur Terminale (VT)</h3>
@@ -301,7 +301,7 @@ export default function Section3() {
                 <ul className="space-y-2 text-orange-700">
                   <li>• Croissance perpétuelle : g = 2%</li>
                   <li>• CMPC = 8,5% (calculé précédemment)</li>
-                  <li>• FCD de l'année N+6 = FCD N+5 × (1 + g)</li>
+                  <li>• FCD de l&apos;année N+6 = FCD N+5 × (1 + g)</li>
                 </ul>
               </div>
 
@@ -322,7 +322,7 @@ export default function Section3() {
                     <tr>
                       <th className="border border-gray-300 px-3 py-2 text-left">Année</th>
                       <th className="border border-gray-300 px-3 py-2 text-left">FCD (M€)</th>
-                      <th className="border border-gray-300 px-3 py-2 text-left">Facteur d'actualisation</th>
+                      <th className="border border-gray-300 px-3 py-2 text-left">Facteur d&apos;actualisation</th>
                       <th className="border border-gray-300 px-3 py-2 text-left">Valeur actualisée</th>
                     </tr>
                   </thead>
@@ -364,7 +364,7 @@ export default function Section3() {
                       <td className="border border-gray-300 px-3 py-2 font-bold">95,0</td>
                     </tr>
                     <tr className="bg-green-100">
-                      <td className="border border-gray-300 px-3 py-2 font-bold" colSpan={3}>VALEUR D'ENTREPRISE (VE)</td>
+                      <td className="border border-gray-300 px-3 py-2 font-bold" colSpan={3}>VALEUR D&apos;ENTREPRISE (VE)</td>
                       <td className="border border-gray-300 px-3 py-2 font-bold text-lg">127,1 M€</td>
                     </tr>
                   </tbody>
@@ -421,7 +421,7 @@ export default function Section3() {
                 <ul className="space-y-2 text-indigo-700">
                   <li>• Entreprise 100% financée par capitaux propres</li>
                   <li>• CMPC = ρ = 10% (coût des CP non endettés)</li>
-                  <li>• Pas d'économie d'impôt sur la dette</li>
+                  <li>• Pas d&apos;économie d&apos;impôt sur la dette</li>
                 </ul>
               </div>
 
@@ -469,10 +469,10 @@ export default function Section3() {
                 <div className="space-y-2 text-yellow-700">
                   <p><strong>VE endettée :</strong> 127,1 M€</p>
                   <p><strong>VE non endettée :</strong> 102,5 M€</p>
-                  <p><strong>Économie d'impôt :</strong> 127,1 - 102,5 = 24,6 M€</p>
+                  <p><strong>Économie d&apos;impôt :</strong> 127,1 - 102,5 = 24,6 M€</p>
                 </div>
                 <p className="text-yellow-700 text-sm mt-3">
-                  L'endettement crée de la valeur grâce aux économies d'impôt (théorie M&M avec fiscalité).
+                  L&apos;endettement crée de la valeur grâce aux économies d&apos;impôt (théorie M&M avec fiscalité).
                 </p>
               </div>
             </section>
@@ -484,7 +484,7 @@ export default function Section3() {
                 <h4 className="font-semibold text-red-800">Points clés à retenir</h4>
               </div>
               <ul className="space-y-2 text-red-700">
-                <li>• Les dotations aux amortissements n'impactent pas les FCD (déjà dans le NOPAT)</li>
+                <li>• Les dotations aux amortissements n&apos;impactent pas les FCD (déjà dans le NOPAT)</li>
                 <li>• Les investissements de maintien sont inclus dans Δ Immobilisations</li>
                 <li>• La VT représente souvent 70-80% de la valeur totale</li>
                 <li>• Toujours vérifier la cohérence : VE endettée &gt; VE non endettée</li>
@@ -499,7 +499,7 @@ export default function Section3() {
                 <h4 className="font-semibold text-purple-800">💭 Moyen mnémotechnique</h4>
               </div>
               <div className="text-purple-700">
-                <p className="font-semibold mb-2">"NAVI" pour les étapes DCF :</p>
+                <p className="font-semibold mb-2">&quot;NAVI&quot; pour les étapes DCF :</p>
                 <ul className="space-y-1">
                   <li><strong>N</strong>OPAT : résultat opérationnel après impôt</li>
                   <li><strong>A</strong>ctualisation : des flux futurs au CMPC</li>

@@ -34,8 +34,8 @@ export default function CourseHeader() {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="text-lg text-blue-100 mb-6 leading-relaxed"
           >
-            Maîtrisez les théories fondamentales de Modigliani & Miller, la formule d'Hamada et les applications pratiques 
-            de valorisation d'entreprise. Un cours complet avec exemples détaillés et exercices d'application.
+            Maîtrisez les théories fondamentales de Modigliani & Miller, la formule d&apos;Hamada et les applications pratiques
+            de valorisation d&apos;entreprise. Un cours complet avec exemples détaillés et exercices d&apos;application.
           </motion.p>
 
           {/* Badges */}

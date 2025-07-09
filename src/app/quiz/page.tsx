@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { useState } from 'react';
-import { ArrowLeft, ArrowRight, CheckCircle, XCircle, RotateCcw, Trophy, Target, Brain, Lightbulb } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CheckCircle, XCircle, RotateCcw, Trophy, Brain, Lightbulb } from 'lucide-react';
 
 interface Question {
   id: number;
@@ -19,39 +19,39 @@ const questions: Question[] = [
     id: 1,
     question: "Selon la théorie de Modigliani & Miller (1958), dans un monde sans fiscalité :",
     options: [
-      "La structure financière influence la valeur de l'entreprise",
-      "La valeur de l'entreprise est indépendante de sa structure financière",
-      "L'endettement augmente toujours la valeur",
+      "La structure financière influence la valeur de l&apos;entreprise",
+      "La valeur de l&apos;entreprise est indépendante de sa structure financière",
+      "L&apos;endettement augmente toujours la valeur",
       "Les capitaux propres sont toujours préférables"
     ],
     correct: 1,
-    explanation: "En 1958, M&M démontrent que sans fiscalité, la valeur de l'entreprise est indépendante de sa structure financière. Le coût du capital reste constant.",
+    explanation: "En 1958, M&M démontrent que sans fiscalité, la valeur de l&apos;entreprise est indépendante de sa structure financière. Le coût du capital reste constant.",
     category: "Théorie M&M"
   },
   {
     id: 2,
-    question: "La formule d'Hamada permet de calculer :",
+    question: "La formule d&apos;Hamada permet de calculer :",
     options: [
       "Le coût de la dette",
-      "Le bêta d'une entreprise endettée à partir du bêta non endetté",
+      "Le bêta d&apos;une entreprise endettée à partir du bêta non endetté",
       "La valeur terminale",
       "Le CMPC directement"
     ],
     correct: 1,
-    explanation: "La formule d'Hamada : βᵢ = βᵢ* × [1 + D(1-τ)/CP] permet de passer du bêta désendetté au bêta endetté.",
+    explanation: "La formule d&apos;Hamada : βᵢ = βᵢ* × [1 + D(1-τ)/CP] permet de passer du bêta désendetté au bêta endetté.",
     category: "Formule d'Hamada"
   },
   {
     id: 3,
-    question: "Dans la théorie M&M avec fiscalité (1963), l'endettement crée de la valeur grâce à :",
+    question: "Dans la théorie M&M avec fiscalité (1963), l&apos;endettement crée de la valeur grâce à :",
     options: [
       "La réduction du risque",
-      "L'augmentation des flux de trésorerie",
-      "Les économies d'impôt sur les intérêts",
+      "L&apos;augmentation des flux de trésorerie",
+      "Les économies d&apos;impôt sur les intérêts",
       "La diminution du coût des capitaux propres"
     ],
     correct: 2,
-    explanation: "Avec la fiscalité, les intérêts de la dette sont déductibles, créant un bouclier fiscal qui augmente la valeur de l'entreprise.",
+    explanation: "Avec la fiscalité, les intérêts de la dette sont déductibles, créant un bouclier fiscal qui augmente la valeur de l&apos;entreprise.",
     category: "Théorie M&M"
   },
   {
@@ -95,7 +95,7 @@ const questions: Question[] = [
   },
   {
     id: 7,
-    question: "Pour passer de la Valeur d'Entreprise à la valeur des capitaux propres :",
+    question: "Pour passer de la Valeur d&apos;Entreprise à la valeur des capitaux propres :",
     options: [
       "VE + Dettes - Trésorerie",
       "VE - Dettes + Trésorerie",
@@ -116,25 +116,25 @@ const questions: Question[] = [
       "k × (1-τ) + i"
     ],
     correct: 1,
-    explanation: "CMPC = k × CP/(CP+D) + i(1-τ) × D/(CP+D), où i(1-τ) reflète l'économie d'impôt sur la dette.",
+    explanation: "CMPC = k × CP/(CP+D) + i(1-τ) × D/(CP+D), où i(1-τ) reflète l&apos;économie d&apos;impôt sur la dette.",
     category: "Coût du capital"
   },
    {
      id: 11,
-     question: "Selon la théorie moderne, quelle est la formule complète de la valeur d'entreprise ?",
+     question: "Selon la théorie moderne, quelle est la formule complète de la valeur d&apos;entreprise ?",
      options: [
-       "VE = VE non endettée + Économies d'impôt",
+       "VE = VE non endettée + Économies d&apos;impôt",
        "VE = VE non endettée - Coûts de détresse financière",
-       "VE = VE non endettée + Économies d'impôt - Coûts de détresse financière",
-       "VE = VE non endettée × (1 + Taux d'endettement)"
+       "VE = VE non endettée + Économies d&apos;impôt - Coûts de détresse financière",
+       "VE = VE non endettée × (1 + Taux d&apos;endettement)"
      ],
      correct: 2,
-     explanation: "La théorie moderne intègre les coûts de détresse financière qui limitent les bénéfices de l'endettement : VE = VE non endettée + Économies d'impôt - Coûts de détresse financière.",
+     explanation: "La théorie moderne intègre les coûts de détresse financière qui limitent les bénéfices de l&apos;endettement : VE = VE non endettée + Économies d&apos;impôt - Coûts de détresse financière.",
      category: "Théorie M&M"
    },
    {
      id: 12,
-     question: "Quel ratio indique la capacité d'une entreprise à rembourser sa dette ?",
+     question: "Quel ratio indique la capacité d&apos;une entreprise à rembourser sa dette ?",
      options: [
        "ROE (Return on Equity)",
        "Dette nette / EBITDA",
@@ -142,7 +142,7 @@ const questions: Question[] = [
        "Capitaux propres / Total bilan"
      ],
      correct: 1,
-     explanation: "Le ratio Dette nette / EBITDA indique en combien d'années l'entreprise peut rembourser sa dette avec son EBITDA. Un ratio < 3-4 est généralement considéré comme sain.",
+     explanation: "Le ratio Dette nette / EBITDA indique en combien d&apos;années l&apos;entreprise peut rembourser sa dette avec son EBITDA. Un ratio < 3-4 est généralement considéré comme sain.",
      category: "Ratios financiers"
    },
    {
@@ -168,7 +168,7 @@ const questions: Question[] = [
        "L'entreprise doit augmenter ses investissements"
      ],
      correct: 1,
-     explanation: "Quand ROIC > CMPC, l'entreprise génère un rendement supérieur à son coût du capital, ce qui crée de la valeur pour les actionnaires.",
+     explanation: "Quand ROIC > CMPC, l&apos;entreprise génère un rendement supérieur à son coût du capital, ce qui crée de la valeur pour les actionnaires.",
      category: "Création de valeur"
    }
 ];

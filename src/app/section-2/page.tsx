@@ -41,7 +41,7 @@ export default function Section2() {
               <Calculator className="w-8 h-8 text-purple-600" />
             </div>
             <div>
-              <h1 className="text-3xl font-bold text-gray-800">Section II - Formule d'Hamada et Applications</h1>
+              <h1 className="text-3xl font-bold text-gray-800">Section II - Formule d&apos;Hamada et Applications</h1>
               <p className="text-gray-600">Calcul du bêta et valorisation pratique</p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Section2() {
               <h3 className="font-semibold text-purple-800">Objectifs de cette section</h3>
             </div>
             <ul className="space-y-2 text-purple-700">
-              <li>• Maîtriser la formule d'Hamada pour le calcul du bêta</li>
+              <li>• Maîtriser la formule d&apos;Hamada pour le calcul du bêta</li>
               <li>• Appliquer la méthodologie DCF sur sociétés non cotées</li>
               <li>• Résoudre des exercices complets de valorisation</li>
               <li>• Calculer le CMPC et vérifier les résultats</li>
@@ -63,11 +63,11 @@ export default function Section2() {
           {/* Contenu */}
           <div className="prose max-w-none space-y-8">
             
-            {/* A. Formule d'Hamada */}
+            {/* A. Formule d&apos;Hamada */}
             <section>
               <h2 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <BookOpen className="w-6 h-6 text-purple-600" />
-                A. La Formule d'Hamada
+                A. La Formule d&apos;Hamada
               </h2>
               
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6 rounded-r-lg">
@@ -76,13 +76,13 @@ export default function Section2() {
                   <h4 className="font-semibold text-blue-800">Principe</h4>
                 </div>
                 <p className="text-blue-700">
-                  La formule d'Hamada permet de calculer le bêta d'une entreprise endettée 
-                  à partir du bêta d'une entreprise non endettée du même secteur.
+                  La formule d&apos;Hamada permet de calculer le bêta d&apos;une entreprise endettée 
+                  à partir du bêta d&apos;une entreprise non endettée du même secteur.
                 </p>
               </div>
 
               <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg mb-6">
-                <h4 className="font-semibold text-purple-800 mb-3">📐 Formule d'Hamada</h4>
+                <h4 className="font-semibold text-purple-800 mb-3">📐 Formule d&apos;Hamada</h4>
                 <div className="text-center py-4">
                   <div className="text-lg font-mono bg-white p-4 rounded border inline-block">
                     βᵢ = βᵢ* + (βᵢ* - βd)(1 - τ) × D/CP
@@ -97,8 +97,8 @@ export default function Section2() {
                 <div className="text-sm text-purple-700 mt-3">
                   <p><strong>Où :</strong></p>
                   <ul className="list-disc list-inside space-y-1">
-                    <li>βᵢ = bêta de l'entreprise endettée</li>
-                    <li>βᵢ* = bêta de l'entreprise non endettée</li>
+                    <li>βᵢ = bêta de l&apos;entreprise endettée</li>
+                    <li>βᵢ* = bêta de l&apos;entreprise non endettée</li>
                     <li>βd = bêta de la dette (souvent = 0)</li>
                   </ul>
                 </div>
@@ -115,10 +115,10 @@ export default function Section2() {
               <div className="bg-gray-50 p-6 rounded-lg mb-6">
                 <h4 className="font-semibold text-gray-800 mb-3">Méthodologie en 4 étapes :</h4>
                 <ol className="list-decimal list-inside space-y-2 text-gray-700">
-                  <li><strong>Constitution d'un référentiel</strong> de sociétés cotées comparables</li>
+                  <li><strong>Constitution d&apos;un référentiel</strong> de sociétés cotées comparables</li>
                   <li><strong>Calcul du βᵢ* désendetté</strong> pour chaque comparable</li>
                   <li><strong>Calcul du β sectoriel</strong> (moyenne des β désendettés)</li>
-                  <li><strong>Réendettement du β</strong> par la formule d'Hamada</li>
+                  <li><strong>Réendettement du β</strong> par la formule d&apos;Hamada</li>
                 </ol>
               </div>
 
@@ -146,7 +146,7 @@ export default function Section2() {
                 <h4 className="font-semibold text-green-800 mb-3">📋 Énoncé</h4>
                 <p className="text-green-700 mb-3">
                   On cherche à valoriser la société S non cotée. Référentiel de sociétés comparables : A, B et C.
-                  Taux d'IS = 25%.
+                  Taux d&apos;IS = 25%.
                 </p>
               </div>
 
@@ -228,7 +228,7 @@ export default function Section2() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">4. Calcul du β de la dette</h3>
               
               <div className="bg-purple-50 border border-purple-200 p-4 rounded-lg mb-6">
-                <p className="text-purple-700 mb-2">D'après le MEDAF :</p>
+                <p className="text-purple-700 mb-2">D&apos;après le MEDAF :</p>
                 <div className="font-mono text-sm space-y-1">
                   <p>i = rf + βd × [E(Rm) - rf]</p>
                   <p>βd = (i - rf) / [E(Rm) - rf]</p>
@@ -286,9 +286,9 @@ export default function Section2() {
                 </div>
                 <ul className="space-y-2 text-red-700">
                   <li>• Le β désendetté représente le risque industriel pur</li>
-                  <li>• La formule d'Hamada ajoute le risque financier</li>
+                  <li>• La formule d&apos;Hamada ajoute le risque financier</li>
                   <li>• Toujours vérifier les calculs avec les formules M&M</li>
-                  <li>• Le CMPC diminue avec l'endettement (effet fiscal)</li>
+                  <li>• Le CMPC diminue avec l&apos;endettement (effet fiscal)</li>
                 </ul>
               </div>
 
@@ -300,11 +300,11 @@ export default function Section2() {
                     <h4 className="font-semibold text-blue-700 mb-3">Ratios de structure financière</h4>
                     <div className="space-y-2 text-sm">
                       <div className="flex justify-between">
-                        <span>Ratio d'endettement :</span>
+                        <span>Ratio d&apos;endettement :</span>
                         <span className="font-mono">Dettes / Capitaux propres</span>
                       </div>
                       <div className="flex justify-between">
-                        <span>Ratio d'autonomie :</span>
+                        <span>Ratio d&apos;autonomie :</span>
                         <span className="font-mono">CP / Total bilan</span>
                       </div>
                       <div className="flex justify-between">
@@ -354,7 +354,7 @@ export default function Section2() {
                     </div>
                     <div>
                       <p className="font-semibold text-blue-600">Free Cash Flow Yield</p>
-                      <p className="font-mono text-xs">FCF / Valeur d'entreprise</p>
+                      <p className="font-mono text-xs">FCF / Valeur d&apos;entreprise</p>
                     </div>
                   </div>
                 </div>

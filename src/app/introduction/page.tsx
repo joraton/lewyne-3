@@ -46,17 +46,17 @@ export default function Introduction() {
             </div>
           </div>
 
-          {/* Objectifs d'apprentissage */}
+          {/* Objectifs d&apos;apprentissage */}
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-3">
               <Target className="w-5 h-5 text-blue-600" />
-              <h3 className="font-semibold text-blue-800">Objectifs d'apprentissage</h3>
+              <h3 className="font-semibold text-blue-800">Objectifs d&apos;apprentissage</h3>
             </div>
             <ul className="space-y-2 text-blue-700">
               <li>• Comprendre les enjeux des décisions de financement</li>
               <li>• Maîtriser les concepts de coût du capital et structure financière</li>
               <li>• Identifier les différents types de risques financiers</li>
-              <li>• Appréhender l'impact de la fiscalité sur les décisions</li>
+              <li>• Appréhender l&apos;impact de la fiscalité sur les décisions</li>
             </ul>
           </div>
 
@@ -64,13 +64,13 @@ export default function Introduction() {
           <div className="prose max-w-none">
             <h2 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
               <BookOpen className="w-6 h-6 text-blue-600" />
-              Qu'est-ce qu'une décision de financement ?
+              Qu&apos;est-ce qu&apos;une décision de financement ?
             </h2>
             
             <p className="text-gray-700 leading-relaxed mb-6">
-              Les <strong>décisions de financement</strong> constituent l'un des trois piliers de la gestion financière d'entreprise, 
-              aux côtés des décisions d'investissement et de distribution. Elles concernent le choix des sources de financement 
-              optimales pour l'entreprise et l'impact de ces choix sur sa valeur.
+              Les <strong>décisions de financement</strong> constituent l&apos;un des trois piliers de la gestion financière d&apos;entreprise, 
+              aux côtés des décisions d&apos;investissement et de distribution. Elles concernent le choix des sources de financement 
+              optimales pour l&apos;entreprise et l&apos;impact de ces choix sur sa valeur.
             </p>
 
             <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-6 rounded-r-lg">
@@ -79,8 +79,8 @@ export default function Introduction() {
                 <h4 className="font-semibold text-green-800">Définition clé</h4>
               </div>
               <p className="text-green-700">
-                Une décision de financement détermine la <strong>structure financière optimale</strong> d'une entreprise, 
-                c'est-à-dire la répartition entre capitaux propres et dettes qui maximise la valeur de l'entreprise 
+                Une décision de financement détermine la <strong>structure financière optimale</strong> d&apos;une entreprise, 
+                c&apos;est-à-dire la répartition entre capitaux propres et dettes qui maximise la valeur de l&apos;entreprise 
                 tout en minimisant le coût du capital.
               </p>
             </div>
@@ -99,7 +99,7 @@ export default function Introduction() {
               <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
                 <h4 className="font-semibold text-orange-800 mb-3">⚖️ Gestion du risque financier</h4>
                 <p className="text-orange-700 text-sm">
-                  Équilibrer les avantages de l'endettement avec les risques de surendettement 
+                  Équilibrer les avantages de l&apos;endettement avec les risques de surendettement 
                   et de difficultés financières.
                 </p>
               </div>
@@ -108,14 +108,14 @@ export default function Introduction() {
                 <h4 className="font-semibold text-indigo-800 mb-3">💰 Maximisation de la valeur</h4>
                 <p className="text-indigo-700 text-sm">
                   Utiliser la structure financière comme levier pour augmenter 
-                  la valeur de l'entreprise et la richesse des actionnaires.
+                  la valeur de l&apos;entreprise et la richesse des actionnaires.
                 </p>
               </div>
               
               <div className="bg-teal-50 p-6 rounded-lg border border-teal-200">
                 <h4 className="font-semibold text-teal-800 mb-3">🏛️ Optimisation fiscale</h4>
                 <p className="text-teal-700 text-sm">
-                  Exploiter les avantages fiscaux de l'endettement (déductibilité des intérêts) 
+                  Exploiter les avantages fiscaux de l&apos;endettement (déductibilité des intérêts) 
                   pour réduire la charge fiscale globale.
                 </p>
               </div>
@@ -135,15 +135,15 @@ export default function Introduction() {
               <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-gray-400">
                 <h4 className="font-semibold text-gray-800 mb-2">Risque Industriel vs Risque Financier</h4>
                 <p className="text-gray-700 text-sm">
-                  Le risque industriel est lié à l'activité de l'entreprise, tandis que le risque financier 
-                  provient de l'utilisation de l'endettement dans la structure de financement.
+                  Le risque industriel est lié à l&apos;activité de l&apos;entreprise, tandis que le risque financier 
+                  provient de l&apos;utilisation de l&apos;endettement dans la structure de financement.
                 </p>
               </div>
               
               <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-gray-400">
-                <h4 className="font-semibold text-gray-800 mb-2">Valeur d'Entreprise (VE)</h4>
+                <h4 className="font-semibold text-gray-800 mb-2">Valeur d&apos;Entreprise (VE)</h4>
                 <p className="text-gray-700 text-sm">
-                  Valeur totale des actifs opérationnels de l'entreprise, indépendamment de leur mode de financement. 
+                  Valeur totale des actifs opérationnels de l&apos;entreprise, indépendamment de leur mode de financement. 
                   Elle se calcule par actualisation des flux de trésorerie futurs.
                 </p>
               </div>
@@ -152,10 +152,10 @@ export default function Introduction() {
             <div className="bg-yellow-50 border border-yellow-200 p-6 rounded-lg">
               <h4 className="font-semibold text-yellow-800 mb-3">🧠 Moyen mnémotechnique</h4>
               <p className="text-yellow-700 mb-2">
-                Pour retenir les trois piliers de la finance d'entreprise, pensez à <strong>"FID"</strong> :
+                Pour retenir les trois piliers de la finance d&apos;entreprise, pensez à <strong>&quot;FID&quot;</strong> :
               </p>
               <ul className="text-yellow-700 text-sm space-y-1">
-                <li><strong>F</strong>inancement : Comment financer l'entreprise ?</li>
+                <li><strong>F</strong>inancement : Comment financer l&apos;entreprise ?</li>
                 <li><strong>I</strong>nvestissement : Dans quoi investir ?</li>
                 <li><strong>D</strong>istribution : Comment rémunérer les actionnaires ?</li>
               </ul>

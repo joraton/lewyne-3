@@ -23,7 +23,7 @@ const sections = [
   },
   {
     id: 'section-2',
-    title: 'Section II - Formule d\'Hamada et Applications',
+    title: 'Section II - Formule d&apos;Hamada et Applications',
     description: 'Calcul du bêta, DCF sur sociétés non cotées et valorisation pratique',
     icon: 'calculator',
     color: 'purple',
@@ -48,7 +48,7 @@ const sections = [
   {
     id: 'questions-dscg',
     title: 'Cas pratiques',
-    description: 'Exercices d\'application pratique et méthodologie d\'examen',
+    description: 'Exercices d&apos;application pratique et méthodologie d&apos;examen',
     icon: 'certificate',
     color: 'violet',
     href: '/questions-dscg'

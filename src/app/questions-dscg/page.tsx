@@ -23,8 +23,8 @@ const exercises: Exercise[] = [
     title: "Calcul du bêta par la méthode des comparables",
     difficulty: "Moyen",
     duration: "20 min",
-    description: "Application de la formule d'Hamada pour valoriser une société non cotée",
-    category: "Formule d'Hamada",
+    description: "Application de la formule d&apos;Hamada pour valoriser une société non cotée",
+    category: "Formule d&apos;Hamada",
     statement: `La société ALPHA (non cotée) souhaite être valorisée. Vous disposez des données suivantes :
 
 **Référentiel de sociétés comparables :**
@@ -34,16 +34,16 @@ const exercises: Exercise[] = [
 
 **Données de la société ALPHA :**
 - Financement : 70% par dette, 30% par capitaux propres
-- Taux d'IS = 25%
+- Taux d&apos;IS = 25%
 - Taux sans risque = 3%
 - Prime de risque du marché = 6%
 - Coût de la dette = 4,5%
 
 **Travail à faire :**
 1. Calculer le β sectoriel désendetté
-2. Calculer le β de la dette d'ALPHA
-3. Calculer le β réendetté d'ALPHA
-4. Déterminer le coût des capitaux propres d'ALPHA`,
+2. Calculer le β de la dette d&apos;ALPHA
+3. Calculer le β réendetté d&apos;ALPHA
+4. Déterminer le coût des capitaux propres d&apos;ALPHA`,
     solution: `**1. Calcul du β sectoriel désendetté**
 
 Pour chaque société comparable :
@@ -53,12 +53,12 @@ Pour chaque société comparable :
 
 β sectoriel = (1,18 + 1,28 + 1,07) / 3 = **1,18**
 
-**2. Calcul du β de la dette d'ALPHA**
+**2. Calcul du β de la dette d&apos;ALPHA**
 
-D'après le MEDAF :
+D&apos;après le MEDAF :
 βd = (i - rf) / [E(Rm) - rf] = (4,5% - 3%) / 6% = **0,25**
 
-**3. Calcul du β réendetté d'ALPHA**
+**3. Calcul du β réendetté d&apos;ALPHA**
 
 Ratio D/CP = 70%/30% = 2,33
 
@@ -66,7 +66,7 @@ Ratio D/CP = 70%/30% = 2,33
 βᵢ = 1,18 + (1,18 - 0,25)(1 - 25%) × 2,33
 βᵢ = 1,18 + 0,93 × 0,75 × 2,33 = **3,80**
 
-**4. Coût des capitaux propres d'ALPHA**
+**4. Coût des capitaux propres d&apos;ALPHA**
 
 k = rf + βᵢ × [E(Rm) - rf]
 k = 3% + 3,80 × 6% = **25,8%**`,
@@ -82,14 +82,14 @@ k = 3% + 3,80 × 6% = **25,8%**`,
     title: "Valorisation DCF complète",
     difficulty: "Difficile",
     duration: "45 min",
-    description: "Valorisation d'une entreprise par la méthode des flux de trésorerie actualisés",
+    description: "Valorisation d&apos;une entreprise par la méthode des flux de trésorerie actualisés",
     category: "Valorisation DCF",
     statement: `La société BETA souhaite être valorisée par la méthode DCF. Données disponibles :
 
 **Compte de résultat année N (en M€) :**
-- Chiffre d'affaires : 150
+- Chiffre d&apos;affaires : 150
 - EBIT : 18 (12% du CA)
-- Taux d'IS : 25%
+- Taux d&apos;IS : 25%
 
 **Bilan année N (en M€) :**
 - Immobilisations nettes : 45 (30% du CA)
@@ -107,7 +107,7 @@ k = 3% + 3,80 × 6% = **25,8%**`,
 **Travail à faire :**
 1. Établir les prévisions de FCD sur 5 ans
 2. Calculer la valeur terminale
-3. Déterminer la valeur d'entreprise
+3. Déterminer la valeur d&apos;entreprise
 4. Calculer la valeur des capitaux propres`,
     solution: `**1. Prévisions de FCD sur 5 ans**
 
@@ -128,7 +128,7 @@ k = 3% + 3,80 × 6% = **25,8%**`,
 FCD N+6 = 13,1 × (1 + 2%) = 13,36 M€
 VT = 13,36 / (9% - 2%) = **190,9 M€**
 
-**3. Valeur d'entreprise**
+**3. Valeur d&apos;entreprise**
 
 | Année | FCD | Facteur d'actualisation | VA |
 |-------|-----|------------------------|----|
@@ -164,10 +164,10 @@ Plus-value latente = 139,0 - 35 = **104,0 M€**`,
     statement: `La société GAMMA étudie différentes structures de financement. Données :
 
 **Situation actuelle :**
-- Valeur d'entreprise non endettée : 100 M€
+- Valeur d&apos;entreprise non endettée : 100 M€
 - Financement : 100% capitaux propres
 - Coût des capitaux propres non endettés : 12%
-- Taux d'IS : 25%
+- Taux d&apos;IS : 25%
 
 **Projets de financement étudiés :**
 - Option A : 20% de dette au taux de 5%
@@ -175,11 +175,11 @@ Plus-value latente = 139,0 - 35 = **104,0 M€**`,
 - Option C : 60% de dette au taux de 8%
 
 **Travail à faire :**
-1. Calculer la valeur d'entreprise pour chaque option (théorie M&M avec fiscalité)
+1. Calculer la valeur d&apos;entreprise pour chaque option (théorie M&M avec fiscalité)
 2. Déterminer le coût des capitaux propres pour chaque option
 3. Calculer le CMPC pour chaque option
 4. Recommander la structure optimale`,
-    solution: `**1. Valeur d'entreprise selon M&M avec fiscalité**
+    solution: `**1. Valeur d&apos;entreprise selon M&M avec fiscalité**
 
 VE = VE₀ + VAN(bouclier fiscal) = VE₀ + D × τ
 
@@ -213,18 +213,18 @@ L'option C (60% de dette) présente :
 
 *Note : En pratique, il faut considérer les coûts de détresse financière qui limitent l'endettement optimal.*`,
     tips: [
-      "Plus d'endettement = plus d'économies d'impôt = plus de valeur",
-      "Le coût des CP augmente avec l'endettement (risque financier)",
+      "Plus d&apos;endettement = plus d&apos;économies d&apos;impôt = plus de valeur",
+      "Le coût des CP augmente avec l&apos;endettement (risque financier)",
       "Le CMPC diminue grâce au bouclier fiscal",
       "Attention aux coûts de détresse financière non modélisés ici"
     ]
   },
   {
     id: 4,
-    title: "Analyse de sensibilité d'une valorisation DCF",
+    title: "Analyse de sensibilité d&apos;une valorisation DCF",
     difficulty: "Difficile",
     duration: "35 min",
-    description: "Étude de l'impact des paramètres clés sur la valeur d'entreprise",
+    description: "Étude de l&apos;impact des paramètres clés sur la valeur d&apos;entreprise",
     category: "Valorisation DCF",
     statement: `La société DELTA a été valorisée à 150 M€ par la méthode DCF avec les hypothèses de base suivantes :
 
@@ -251,7 +251,7 @@ L'option C (60% de dette) présente :
 
 **Travail à faire :**
 1. Calculer la valeur terminale pour chaque scénario
-2. Estimer l'impact sur la valeur d'entreprise totale
+2. Estimer l&apos;impact sur la valeur d&apos;entreprise totale
 3. Identifier le paramètre le plus sensible
 4. Proposer des recommandations`,
     solution: `**Calculs préliminaires :**
@@ -290,7 +290,7 @@ VA des flux explicites = 150 - (175,4 × 0,665) = 33,4 M€
 
 **Paramètre le plus sensible : CMPC**
 - Variation de ±1% → Impact de +12,7% à -9,9%
-- Élasticité élevée due à l'effet d'actualisation
+- Élasticité élevée due à l&apos;effet d&apos;actualisation
 
 **Classement par sensibilité :**
 1. **CMPC** : ±11,3% en moyenne
@@ -299,15 +299,15 @@ VA des flux explicites = 150 - (175,4 × 0,665) = 33,4 M€
 
 **4. Recommandations**
 
-**Priorités d'analyse :**
-- **Affiner l'estimation du CMPC** (bêta, prime de risque)
+**Priorités d&apos;analyse :**
+- **Affiner l&apos;estimation du CMPC** (bêta, prime de risque)
 - Réaliser une analyse de scénarios multiples
 - Considérer une approche par somme des parties
 
 **Gestion des risques :**
 - Établir des fourchettes de valorisation
 - Documenter les hypothèses clés
-- Prévoir des clauses d'ajustement de prix
+- Prévoir des clauses d&apos;ajustement de prix
 
 **Validation :**
 - Comparer avec des multiples de marché
@@ -337,7 +337,7 @@ export default function QuestionsDSCG() {
 
   const getCategoryIcon = (category: string) => {
     switch (category) {
-      case 'Formule d\'Hamada': return <Calculator className="w-5 h-5" />;
+      case 'Formule d&apos;Hamada': return <Calculator className="w-5 h-5" />;
       case 'Valorisation DCF': return <TrendingUp className="w-5 h-5" />;
       case 'Théorie M&M': return <BarChart3 className="w-5 h-5" />;
       default: return <FileText className="w-5 h-5" />;
@@ -510,7 +510,7 @@ export default function QuestionsDSCG() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-800">Cas pratiques</h1>
-              <p className="text-gray-600">Exercices d'application pratique pour l'examen</p>
+              <p className="text-gray-600">Exercices d&apos;application pratique pour l&apos;examen</p>
             </div>
           </div>
 
@@ -523,7 +523,7 @@ export default function QuestionsDSCG() {
             <ul className="space-y-2 text-purple-700">
               <li>• Appliquer les concepts théoriques à des cas concrets</li>
               <li>• Maîtriser la méthodologie des calculs financiers</li>
-              <li>• Se préparer aux questions d'examen DSCG</li>
+              <li>• Se préparer aux questions d&apos;examen DSCG</li>
               <li>• Développer une approche structurée de résolution</li>
             </ul>
           </div>
@@ -571,7 +571,7 @@ export default function QuestionsDSCG() {
               <h3 className="font-semibold text-blue-800">Conseils pour réussir</h3>
             </div>
             <ul className="space-y-2 text-blue-700 text-sm">
-              <li>• Lisez attentivement l'énoncé et identifiez les données clés</li>
+              <li>• Lisez attentivement l&apos;énoncé et identifiez les données clés</li>
               <li>• Structurez votre démarche avant de commencer les calculs</li>
               <li>• Vérifiez la cohérence de vos résultats (ordres de grandeur)</li>
               <li>• Utilisez les conseils méthodologiques fournis</li>
