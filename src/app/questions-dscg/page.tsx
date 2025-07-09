@@ -130,9 +130,8 @@ VT = 13,36 / (9% - 2%) = **190,9 M€**
 
 **3. Valeur d&apos;entreprise**
 
-| Année | FCD | Facteur d'actualisation | VA |
-|-------|-----|------------------------|----|
-| N+1 | 11,3 | 1/(1,09)¹ = 0,917 | 10,4 |
+| Année | FCD | Facteur d&apos;actualisation | VA |
+|-------|-----|------------------------|----|n| N+1 | 11,3 | 1/(1,09)¹ = 0,917 | 10,4 |
 | N+2 | 11,8 | 1/(1,09)² = 0,842 | 9,9 |
 | N+3 | 12,3 | 1/(1,09)³ = 0,772 | 9,5 |
 | N+4 | 12,8 | 1/(1,09)⁴ = 0,708 | 9,1 |
@@ -151,7 +150,7 @@ Plus-value latente = 139,0 - 35 = **104,0 M€**`,
       "Maintenir les ratios constants simplifie les prévisions",
       "La VT représente souvent 70-80% de la valeur totale",
       "Vérifier que g < CMPC pour éviter les valeurs infinies",
-      "La trésorerie s'ajoute, les dettes se soustraient de la VE"
+      "La trésorerie s&apos;ajoute, les dettes se soustraient de la VE"
     ]
   },
   {
@@ -205,13 +204,13 @@ CMPC = k × CP/(CP+D) + i(1-τ) × D/(CP+D)
 
 **4. Recommandation**
 
-L'option C (60% de dette) présente :
+L&apos;option C (60% de dette) présente :
 - La VE la plus élevée (115 M€)
 - Le CMPC le plus faible (10,2%)
 
-**Recommandation : Option C**, sous réserve que l'entreprise puisse supporter le risque financier associé à un endettement de 60%.
+**Recommandation : Option C**, sous réserve que l&apos;entreprise puisse supporter le risque financier associé à un endettement de 60%.
 
-*Note : En pratique, il faut considérer les coûts de détresse financière qui limitent l'endettement optimal.*`,
+*Note : En pratique, il faut considérer les coûts de détresse financière qui limitent l&apos;endettement optimal.*`,
     tips: [
       "Plus d&apos;endettement = plus d&apos;économies d&apos;impôt = plus de valeur",
       "Le coût des CP augmente avec l&apos;endettement (risque financier)",
@@ -258,7 +257,7 @@ L'option C (60% de dette) présente :
 
 VT de base = 12 × (1+2%) / (9%-2%) = 175,4 M€
 VA des flux explicites = 150 - (175,4 × 0,665) = 33,4 M€
-(Facteur d'actualisation en N+5 : 1/(1,09)⁵ = 0,665)
+(Facteur d&apos;actualisation en N+5 : 1/(1,09)⁵ = 0,665)
 
 **1. Calcul des valeurs terminales**
 
@@ -315,7 +314,7 @@ VA des flux explicites = 150 - (175,4 × 0,665) = 33,4 M€
 - Effectuer des tests de stress sur les hypothèses`,
     tips: [
       "La VT représente souvent 70-80% de la valeur : sa sensibilité est critique",
-      "Le CMPC a un impact exponentiel via l'actualisation",
+      "Le CMPC a un impact exponentiel via l&apos;actualisation",
       "Toujours tester plusieurs scénarios pour encadrer la valeur",
       "Documenter les sources et la logique de chaque hypothèse clé"
     ]
@@ -587,7 +586,7 @@ export default function QuestionsDSCG() {
             Quiz
           </Link>
           <Link href="/" className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg shadow-sm hover:shadow-md transition-all">
-            Retour à l'accueil
+            Retour à l&apos;accueil
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

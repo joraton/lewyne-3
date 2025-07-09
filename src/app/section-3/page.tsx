@@ -231,7 +231,7 @@ export default function Section3() {
               <div className="bg-gray-50 border border-gray-200 p-6 rounded-lg mb-6">
                 <h4 className="font-semibold text-gray-800 mb-4 flex items-center gap-2">
                   <Calculator className="w-5 h-5 text-gray-600" />
-                  📊 Exercice d'application : Analyse comparative
+                  📊 Exercice d&apos;application : Analyse comparative
                 </h4>
                 
                 <p className="text-gray-700 mb-4">
