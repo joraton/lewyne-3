@@ -83,26 +83,26 @@ export default function SectionBlock({ title, description, icon, color, href }: 
     <motion.div
       whileHover={{ scale: 1.02, y: -2 }}
       transition={{ type: "spring", stiffness: 300, damping: 20 }}
-      className={`bg-white border-2 ${colors.border} ${colors.hover} rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300`}
+      className={`bg-white border-2 ${colors.border} ${colors.hover} rounded-xl p-4 sm:p-6 shadow-sm hover:shadow-md transition-all duration-300`}
     >
-      <div className="flex items-center gap-6">
+      <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4 sm:gap-6">
         {/* Icône */}
-        <div className={`${colors.bg} rounded-full p-4 flex-shrink-0`}>
-          <IconComponent className={`w-8 h-8 ${colors.icon}`} />
+        <div className={`${colors.bg} rounded-full p-3 sm:p-4 flex-shrink-0`}>
+          <IconComponent className={`w-6 h-6 sm:w-8 sm:h-8 ${colors.icon}`} />
         </div>
 
         {/* Contenu */}
-        <div className="flex-1">
-          <h3 className="text-xl font-bold text-gray-800 mb-2">{title}</h3>
-          <p className="text-gray-600 leading-relaxed">{description}</p>
+        <div className="flex-1 text-center sm:text-left">
+          <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{title}</h3>
+          <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{description}</p>
         </div>
 
         {/* Bouton */}
-        <Link href={href}>
+        <Link href={href} className="w-full sm:w-auto">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className={`${colors.button} text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 transition-colors duration-200 shadow-sm hover:shadow-md`}
+            className={`${colors.button} text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors duration-200 shadow-sm hover:shadow-md w-full sm:w-auto`}
           >
             Commencer
             <ChevronRight className="w-4 h-4" />

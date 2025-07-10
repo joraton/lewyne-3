@@ -61,23 +61,23 @@ export default function CoursePlan() {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.5, duration: 0.6 }}
-      className="bg-white rounded-2xl p-8 shadow-lg"
+      className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg"
     >
       {/* Titre de la section */}
-      <div className="text-center mb-8">
-        <div className="flex items-center justify-center gap-3 mb-4">
-          <div className="bg-blue-100 rounded-full p-3">
-            <Target className="w-6 h-6 text-blue-600" />
+      <div className="text-center mb-6 sm:mb-8">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+          <div className="bg-blue-100 rounded-full p-2 sm:p-3">
+            <Target className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
           </div>
-          <h2 className="text-3xl font-bold text-gray-800">Plan du cours</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">Plan du cours</h2>
         </div>
-        <p className="text-gray-600 text-lg">
+        <p className="text-gray-600 text-base sm:text-lg px-4 sm:px-0">
           Suivez un parcours structuré pour maîtriser les décisions de financement
         </p>
       </div>
 
       {/* Blocs des sections */}
-      <div className="space-y-4">
+      <div className="space-y-3 sm:space-y-4">
         {sections.map((section, index) => (
           <motion.div
             key={section.id}
